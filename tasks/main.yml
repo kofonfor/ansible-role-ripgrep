@@ -1,0 +1,5 @@
+- name: install snapd
+  apt: name=snapd
+
+- name: install ripgrep using snap
+  shell: snap install rg
